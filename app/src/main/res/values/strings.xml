@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">login</string>
+    <string name="welcome_to_the_future">Bienvenido al futuro</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="continue_registration">Continuar el registro</string>
+    <string name="add_password">Agrega tu contraseña</string>
+    <string name="add_username">Agrega tu usuario proporcionado</string>
+    <string name="welcome_to_the_adventure">¡Comienza una nueva aventura con tu registro de la app!</string>
 </resources>

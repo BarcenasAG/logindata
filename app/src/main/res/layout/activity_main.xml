@@ -8,11 +8,11 @@
     >
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="Bienvenido"
+        android:text="@string/welcome"
         android:textSize="45dp"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,37 +20,37 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/welcome_registration"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="100dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="¡Comienza una nueva aventura con tu registro de la app!"
+        android:text="@string/welcome_to_the_adventure"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/welcome" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/add_a_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Agrega tu usuario proporcionado"
+        android:text="@string/add_username"
         android:textColor="@color/black"
         android:fontFamily="sans-serif-condensed"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2">
+        app:layout_constraintTop_toBottomOf="@+id/welcome_registration">
 
     </TextView>
 
     <EditText
-        android:id="@+id/tusername"
+        android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -58,26 +58,26 @@
         android:layout_marginEnd="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3">
+        app:layout_constraintTop_toBottomOf="@+id/add_a_user">
 
     </EditText>
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/add_a_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Agrega tu contraseña proporcionada"
+        android:text="@string/add_password"
         android:fontFamily="sans-serif-condensed"
         android:textColor="@color/black"
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tusername">
+        app:layout_constraintTop_toBottomOf="@+id/username">
 
     </TextView>
 
     <EditText
-        android:id="@+id/tpassword"
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -85,22 +85,22 @@
         android:layout_marginEnd="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4">
+        app:layout_constraintTop_toBottomOf="@+id/add_a_password">
 
     </EditText>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_continue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Continuar el registro"
+        android:text="@string/continue_registration"
         android:background="#00A3D4"
         android:layout_marginTop="20dp"
         android:layout_marginStart="100dp"
         android:layout_marginEnd="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tpassword">
+        app:layout_constraintTop_toBottomOf="@+id/password">
 
     </Button>
 
