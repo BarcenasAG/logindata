@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.buttonContinue.setOnClickListener {
+
             if (binding.password.text.toString().isEmpty() || binding.username.text.toString().isEmpty()) {
                 Toast.makeText(baseContext, "agregue datos de usuario y contraseña", LENGTH_LONG).show()
             }
