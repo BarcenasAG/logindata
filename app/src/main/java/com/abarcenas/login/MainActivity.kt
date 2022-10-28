@@ -7,9 +7,6 @@ import android.widget.Toast
 import android.widget.Toast.LENGTH_LONG
 import com.abarcenas.login.databinding.ActivityMainBinding
 
-
-
-
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
@@ -22,9 +19,8 @@ class MainActivity : AppCompatActivity() {
         binding.buttonContinue.setOnClickListener {
 
             if (binding.password.text.toString().isEmpty() || binding.username.text.toString().isEmpty()) {
-                Toast.makeText(baseContext, "agregue datos de usuario y contraseña", LENGTH_LONG).show()
-            }
-            else {
+                Toast.makeText(baseContext, getString(R.string.add_username_password), LENGTH_LONG).show()
+            } else {
                 val intent = Intent(this, HomeActivity::class.java)
                 startActivity(intent)
             }

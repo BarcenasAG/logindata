@@ -6,4 +6,6 @@
     <string name="add_password">Agrega tu contraseña</string>
     <string name="add_username">Agrega tu usuario proporcionado</string>
     <string name="welcome_to_the_adventure">¡Comienza una nueva aventura con tu registro de la app!</string>
+    <string name="add_username_password">agregar datos de usuario y contraseña</string>
+    <string name="verify_record">Verificar regsitro</string>
 </resources>
